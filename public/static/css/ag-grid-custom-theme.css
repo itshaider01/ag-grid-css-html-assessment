@@ -3,19 +3,106 @@ CUSTOM AG-GRID CSS HERE
 MORE DOCUMENTATION HERE : https://www.ag-grid.com/javascript-data-grid/themes/
 */
 .ag-theme-alpine {
-    --ag-header-height: 30px;
-    --ag-header-foreground-color: white;
-    --ag-header-background-color: black;
-    --ag-header-cell-hover-background-color: rgb(80, 40, 140);
-    --ag-header-cell-moving-background-color: rgb(80, 40, 140);
+  --ag-header-height: 30px;
+  --ag-header-foreground-color: white;
+  --ag-header-background-color: black;
+  --ag-header-cell-hover-background-color: rgb(80, 40, 140);
+  --ag-header-cell-moving-background-color: rgb(80, 40, 140);
+  padding: 0px 12rem;
 }
+
 .ag-theme-alpine .ag-header {
-    font-family: cursive;
+  font-family: cursive;
 }
 .ag-theme-alpine .ag-header-group-cell {
-    font-weight: normal;
-    font-size: 22px;
+  font-weight: normal;
+  font-size: 42px;
 }
 .ag-theme-alpine .ag-header-cell {
-    font-size: 18px;
+  font-size: 18px;
+}
+.ag-header-container {
+  background-color: lightblue;
+}
+.ag-theme-alpine .ag-status-name-value {
+  color: black !important;
+  padding: 0;
+  font-size: 14px;
+  align-self: center;
+}
+.ag-react-container {
+  align-self: center;
+}
+.ag-tool-panel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.ag-status-bar {
+  padding: 12px;
+}
+.component {
+  color: black;
+}
+.ag-input-field-input .ag-text-field-input {
+  color: black;
+}
+
+.ag-header-group-text {
+  font-size: 35px;
+  font-family: monospace;
+  color: black;
+}
+
+.ag-floating-filter-input .ag-input-field-input[type="date"] {
+  color: black !important;
+}
+.fa-comment-dots:before,
+.fa-commenting:before {
+  color: #2196f3;
+}
+.ag-theme-alpine .ag-icon-grip:before {
+  color: steelblue;
+}
+.ag-header-cell-label {
+  font-family: monospace;
+  color: black;
+}
+dt {
+  text-align: left;
+  font-weight: 600;
+}
+.ag-theme-alpine .ag-side-buttons {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-fluid {
+  height: 800px !important;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  border: none;
+  border-radius: 3px;
+}
+/* ---------------------------------------------------------------- */
+
+h1 {
+  padding: 0px 12rem;
+  font-size: 46px;
+  font-family: monospace;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer p {
+  margin: 20px 0px;
 }
